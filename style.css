@@ -4,92 +4,89 @@
 }
 
 body { 
-    background: gray;
-    width: 100%;
-    height: 100%;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
 }
 #container {
-    width: 100%;
+    width: 80%;
+    padding-left: 20%;
+    width: 990px;
 }
 
 header {
-    background: #ededed;
-    padding: 30px;
-    margin-bottom: 10px;
-    width: 80%;
-    margin-left: 110px;
+    background: #ebebeb;
     color: gray;
+    width:100%;
+    padding:20px;
+    margin-bottom: 10px;
 }
 
 #nav { 
-    background: #ededed;
-    padding: 30px;
-    margin-bottom: 20px;
-    width: 80%;
-    margin-left: 110px;
-    color: gray;
+    background: #ebebeb;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
 }
 
 #full {
-    background: #ededed;
-    width: 45%;
-    margin-left: 110px;
-    height: 350px;
-    margin-top: 10px;
-    color: gray;
+    background: #ebebeb;
+    float: left;
+    width: 50%;
+    padding-top: 5px;
+    height: 270px;
 }
 
 #article {
-    background: gray;
-    height: 250px;
-    width: 42%;
-    position: relative;
-    top: -265px;
-    left: 130px;
-    color: white;
+    color: #ebebeb;
+    background: #777;
+    width: 95%;
+    margin-left: 10px;
+    height: 170px;
 }
 
 #headers {
-    background: #ededed;
-    width: 40%;
-    height: 80px;
+    color: #777;
+    background: #ebebeb;
+    width: 90%;
+    margin-left: 20px;
     position: relative;
-    top: -470px;
-    left: 143px;
-    color: gray;
+    top: -130px;
+    height: 50px; 
 }
 
 #paragraph {
-    background: #ededed;
-    width: 40%;
-    height: 80px;
+    color: #777;
+    background: #ebebeb;
+    width: 90%;
+    margin-left: 20px;
     position: relative;
-    top: -450px;
-    left: 143px;
-    color: gray;
+    top: -120px;
+    height: 50px;
 }
 
 #aside {
-    background: #ededed;
-    width: 34%;
-    height: 350px;
+    background: #ebebeb;
+    float: right;
+    width: 95%;
     position: relative;
-    top: -760px;
-    left: 700px;
-    color: gray;
+    right: -400px;
+    top: -341px;
+    height: 270px;
 }
 
-#footer {
-    background: #ededed;
-    padding: 30px;
+.footer {
+    background: #ebebeb;
+    color: gray;  
+    width:100%;
+    padding:20px;
     margin-bottom: 10px;
-    width: 80%;
-    margin-left: 110px;
     position: relative;
-    top: -740px;
-    color: gray;
-    
+    bottom: -280px;
 }
+
 
 
 
